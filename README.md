@@ -18,7 +18,7 @@ React, JavaScript, HTML, CSS and Bootstrap.
   - npm install --> npm start
 
 ## The Wins 
-Making my findWinner function more consise with the use of || instead of listing every single possible option available. 
+Making my findWinner function more concise with the use of || instead of listing every single possible option available. 
 
 ```bash
    function findWinner(userChoice, aiChoice) {
@@ -39,8 +39,8 @@ Making my findWinner function more consise with the use of || instead of listing
 
 ## Lessons Learned
 
-- I gained a better understanding of the asynchronous nature of useState with this first project. At first I built this game with three different states to update seperately - userChoice, aiChoice and winner. Due to the winner being dependent on the two other states the display winner card was a step behind the player and aiChoice displays. 
+- I gained a better understanding of the asynchronous nature of useState with this first project. At first I built this game with three different states to update separately - userChoice, aiChoice and winner. Due to the winner being dependent on the two other states the display winner card was a step behind the player and aiChoice displays. 
 
-  I resloved this by make a gameState useState object which included userChoice, aiChoice and winner. This ensured all states updated at the same time and that the displayed choices and the winner were both correct. 
+  I resolved this by make a a useState object (gameState) which included userChoice, aiChoice and winner. This ensured all states updated at the same time and that the displayed choices and the winner were both correct. 
 
 - I gained some useful experience using Bootstrap for the first time. This allowed me to import specific components and complete the styling of this project at a faster pace with the supplied templates. It also provided me some experience reading documentation and using a new design tool.
