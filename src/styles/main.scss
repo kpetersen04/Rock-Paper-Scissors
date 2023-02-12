@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 50px;
+}
+.hero,
+.result-display,
+.resetBtn {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.players-choices {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin: 40px 0;
+}
+
+.winner-display {
+  margin: auto;
+  width: 450px;
+}
+
+.resetBtn {
+  margin-top: 40px;
+}
